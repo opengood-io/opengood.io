@@ -14,15 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: OpenGood.io
-email: cjaehnen@me.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  OpenGood.io's mission is to implement open source software (OSS) projects, frameworks, and solutions to serve the greater GOOD for all developers.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://opengood.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cjaehnen
 github_username:  cjaehnen
+show_downloads: true
+google_analytics:
 
 # Build settings
 markdown: kramdown
