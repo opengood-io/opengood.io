@@ -3,5 +3,8 @@ _site
 .sass-cache
 .jekyll-metadata
 
+# Ruby
+Gemfile.lock
+
 $ Intellij IDEA
 opengood-io.github.io.iml
