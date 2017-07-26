@@ -6,5 +6,5 @@ _site
 # Ruby
 Gemfile.lock
 
-# Intellij IDEA
-opengood-io.github.io.iml
+# IntelliJ IDEA files
+*.iml
