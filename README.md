@@ -64,13 +64,13 @@ fly -t opengood-io login -c http://concourse.opengood.io:8080 -k
 #### Deploy Pipeline to Concourse
 
 ```bash
-fly -t opengood-io set-pipeline -p opengood-io.github.io -c ci/pipeline.yml -l ci/credentials.yml
+fly -t opengood-io set-pipeline -p opengood.io -c ci/pipeline.yml -l ci/credentials.yml
 ```
 
 #### Pipeline Debugging
 
 ```bash
-fly -t concourse intercept -j opengood-io.github.io/JOB_NAME
+fly -t concourse intercept -j opengood.io/JOB_NAME
 ```
 
 ### Deployment Process
@@ -79,8 +79,8 @@ Concourse automatically publishes each Git commit to GitHub as a `static content
 
 ## Distribution
 
-`opengood-io.github.io` is generated via Hugo and distributed via GitHub Pages.
+`opengood.io` is generated via Hugo and distributed via GitHub Pages.
 
 ## Disclaimer
 
-`opengood-io.github.io` is a Web site from the OpenGood.io library of OSS projects, frameworks, and solutions.
+`opengood.io` is a Web site from the OpenGood.io library of OSS projects, frameworks, and solutions.

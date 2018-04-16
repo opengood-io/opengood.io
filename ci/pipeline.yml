@@ -35,7 +35,7 @@ resources:
 - name: source-code
   type: git
   source:
-    uri: git@github.com:opengood-io/opengood-io.github.io.git
+    uri: git@github.com:opengood-io/opengood.io.git
     branch: master
     check: true
     include_paths: [README.md]
@@ -44,6 +44,6 @@ resources:
 - name: web-site
   type: git
   source:
-    uri: git@github.com:opengood-io/opengood-io.github.io.git
+    uri: git@github.com:opengood-io/opengood.io.git
     branch: gh-pages
     private_key: ((private-key))
