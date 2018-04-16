@@ -1,0 +1,26 @@
+baseURL = "http://opengood.io"
+languageCode = "en-us"
+title = "OpenGood.io"
+theme = "hyde-hyde"
+
+[params]
+  author = "OpenGood.io"
+  description = "OpenGood.io"
+  authorimage = "/images/opengood-io.png"
+  dateformat = "Jan 2, 2006"
+  highlightjs = true
+
+[params.social]
+    github = "cjaehnen"
+    twitter = "cjaehnen"
+
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 200
+    url = "/about/"

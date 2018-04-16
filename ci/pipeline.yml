@@ -1,0 +1,49 @@
+jobs:
+- name: publish-web-site
+  plan:
+  - get: source-code
+    trigger: true
+  - get: hugo-image
+    trigger: true
+  - get: web-site
+  - task: publish-web-site
+    privileged: true
+    image: hugo-image
+    config:
+      platform: linux
+      inputs: 
+        - name: source-code
+        - name: web-site
+      outputs:
+        - name: web-site-generated
+      run:
+        path: source-code/ci/tasks/publish-web-site.sh
+      params:
+        git_user: CI Bot
+        git_email: concourse@opengood.io
+  - put: web-site
+    params:
+      repository: web-site-generated
+      force: true
+
+resources:
+- name: hugo-image
+  type: docker-image
+  source:
+    repository: monachus/hugo
+
+- name: source-code
+  type: git
+  source:
+    uri: git@github.com:opengood-io/opengood-io.github.io.git
+    branch: master
+    check: true
+    ignore_paths: [ci/*]
+    private_key: ((private-key))
+
+- name: web-site
+  type: git
+  source:
+    uri: git@github.com:opengood-io/opengood-io.github.io.git
+    branch: gh-pages
+    private_key: ((private-key))

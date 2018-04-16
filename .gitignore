@@ -1,10 +1,5 @@
-### Ruby ###
-Gemfile.lock
-
-### Jekyll ###
-_site
-.sass-cache
-.jekyll-metadata
+### macOS ###
+.DS_Store
 
 ### IntelliJ IDEA ###
 .idea
@@ -12,5 +7,14 @@ _site
 *.iml
 *.ipr
 
-### macOS ###
-.DS_Store
+### Gradle ###
+.gradle
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Credentials ###
+credentials.yml
+
+### Static Resources ###
+public/
