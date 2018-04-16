@@ -11,8 +11,7 @@ theme = "hyde-hyde"
   highlightjs = true
 
 [params.social]
-    github = "cjaehnen"
-    twitter = "cjaehnen"
+    github = "opengood-io"
 
 [[menu.main]]
     name = "Posts"
