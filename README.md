@@ -1,6 +1,6 @@
 # OpenGood.io Organization GitHub Pages Site
 
-Public Web site for OpenGood.io using Hugo and GitHub Pages.
+Public Web site for OpenGood.io using Hugo and GitHub Pages
 
 ## Where can I find the site?
 
