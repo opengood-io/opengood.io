@@ -38,7 +38,7 @@ resources:
     uri: git@github.com:opengood-io/opengood.io.git
     branch: master
     check: true
-    include_paths: [README.md]
+    include_paths: [ci/*, README.md]
     private_key: ((private-key))
 
 - name: web-site
