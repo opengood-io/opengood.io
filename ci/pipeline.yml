@@ -38,7 +38,6 @@ resources:
     uri: git@github.com:opengood-io/opengood-io.github.io.git
     branch: master
     check: true
-    ignore_paths: [ci/*]
     private_key: ((private-key))
 
 - name: web-site
