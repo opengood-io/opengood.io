@@ -1,4 +1,4 @@
-baseURL = "http://opengood.io/"
+baseURL = "https://opengood.io/"
 languageCode = "en-us"
 title = "OpenGood.io"
 theme = "hyde-hyde"
