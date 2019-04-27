@@ -2,19 +2,21 @@
 .DS_Store
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
 *.iml
 *.ipr
+*.iws
+.idea
+generated/
+generated_tests/
+out/
 
 ### Gradle ###
+!gradle/wrapper/gradle-wrapper.jar
 .gradle
 build/
-out/
-!gradle/wrapper/gradle-wrapper.jar
 
-### Credentials ###
+### Pipeline ###
 credentials.yml
 
-### Static Resources ###
-public/
+### Properties Files ###
+credentials*.properties

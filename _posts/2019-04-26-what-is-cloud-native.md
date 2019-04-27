@@ -1,7 +1,11 @@
-+++
-title = "What is Cloud Native?"
-date = "2018-04-21"
-+++
+---
+layout: post
+title: "What is Cloud Native?"
+categories:
+  - Cloud-Native
+tags:
+  - cloud-native
+---
 
 # Traditional Enterprise
 
