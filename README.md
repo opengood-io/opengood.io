@@ -1,6 +1,6 @@
-# OpenGood.io Organization GitHub Pages Site
+# OpenGood Organization GitHub Pages Site
 
-Public Web site for OpenGood.io using Jekyll and GitHub Pages
+Public Web site for OpenGood using Jekyll and GitHub Pages
 
 ## Where can I find the site?
 
@@ -21,4 +21,4 @@ and published via GitHub Pages at [http://opengood.io](http://opengood.io).
 
 ## Disclaimer
 
-`opengood.io` is a Web site from the OpenGood.io library of OSS projects, frameworks, and solutions.
+`opengood.io` is a Web site from the OpenGood library of OSS projects, frameworks, and solutions.
