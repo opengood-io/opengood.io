@@ -30,19 +30,19 @@ sass:
 
 # Social Links
 #email:             email
-#google.plus:        username
-#twitter:            username
-#facebook:           username
+#google.plus:       username
+#twitter:           username
+#facebook:          username
 github:             opengoodio
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-#instagram:          username
+#instagram:         username
 #lastfm:            username
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
-#steam:              username
+#steam:             username
 #dribbble:          username
 #youtube:           username
 #soundcloud:        username
@@ -55,7 +55,7 @@ github:             opengoodio
 #behance:           username
 
 # Gems
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist

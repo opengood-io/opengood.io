@@ -18,5 +18,11 @@ build/
 ### Pipeline ###
 credentials.yml
 
+### Static Resources ###
+node_modules
+
 ### Properties Files ###
 credentials*.properties
+
+### Jekyll ###
+_site

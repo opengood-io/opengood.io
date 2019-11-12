@@ -4,16 +4,32 @@ Public Web site for OpenGood using Jekyll and GitHub Pages
 
 ## Where can I find the site?
 
-The site is hosted using GitHub Pages at [https://opengood.io](https://opengood.io).
+The site is hosted using GitHub Pages at <https://opengood.io)>.
 
 ## How do I create content for the site?
 
-The content is stored in this repo and is written in [Markdown](https://daringfireball.net/projects/markdown/syntax).
+The content is stored in this repo and is written in
+[Markdown](https://daringfireball.net/projects/markdown/syntax).
 
 ## How does content get published to the site?
 
 The content is automatically generated from this repo using [Jekyll](https://jekyllrb.com)
-and published via GitHub Pages at [http://opengood.io](http://opengood.io).
+and published via GitHub Pages at <https://opengood.io>.
+
+## How do I test the site locally?
+
+1. First, install Jekyll via Terminal from this repo:
+
+    ```bash
+    bin/install-jekyll.sh
+    ```
+
+1. Next, generate a local site and publish it via Jekyll via Terminal
+from this repo:
+
+    ```bash
+    bin/run-jekyll.sh
+    ```
 
 ## Distribution
 
@@ -21,4 +37,5 @@ and published via GitHub Pages at [http://opengood.io](http://opengood.io).
 
 ## Disclaimer
 
-`opengood.io` is a Web site from the OpenGood library of OSS projects, frameworks, and solutions.
+`opengood.io` is a Web site from the OpenGood library of OSS products,
+frameworks, and solutions.
