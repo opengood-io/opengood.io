@@ -1,10 +1,10 @@
 ---
-layout: page
-subheadline: "Information"
+layout: page-fullwidth
+subheadline: "Patterns & Practices"
 title: "What is Cloud-Native?"
 teaser: "The latest buzz word in the application world is cloud-native. What is it and why is it so compelling?"
 header:
-    image_fullwidth: "blog_header_clouds.jpg"
+    image_fullwidth: "blog_clouds_header.jpg"
 image:
     thumb: blog_clouds_thumb.jpg
 categories:
