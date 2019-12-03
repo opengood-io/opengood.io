@@ -1,10 +1,12 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "github-pages", group: :jekyll_plugins
+gem 'jekyll'
 
-# plugins
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.11"
-  gem "jekyll-gist"
-  gem "jekyll-sitemap"
+  gem 'jekyll-gist'
+  gem 'jekyll-paginate'
+  gem "jekyll-asciidoc"
 end
+
+gem 'asciidoctor', '~> 1.5.4'
+gem 'coderay', '1.1.1'

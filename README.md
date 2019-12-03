@@ -4,7 +4,7 @@ Public Web site for OpenGood using Jekyll and GitHub Pages
 
 ## Where can I find the site?
 
-The site is hosted using GitHub Pages at <https://opengood.io)>.
+The site is hosted using GitHub Pages at <https://opengood.io>.
 
 ## How do I create content for the site?
 
@@ -37,5 +37,5 @@ from this repo:
 
 ## Disclaimer
 
-`opengood.io` is a Web site from the OpenGood library of OSS products,
+`opengood.io` is a Web site from the OpenGood family of OSS products,
 frameworks, and solutions.

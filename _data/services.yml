@@ -1,0 +1,5 @@
+- menu_name: "Services"
+
+- name: Sitemap
+  url: "/sitemap.xml"
+  title: "Sitemap"
