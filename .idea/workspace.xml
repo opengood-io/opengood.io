@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="04d34101-c12a-4446-8e4d-0840e927fb38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/cloud-native/2019-12-03-what-is-cloud-native.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/cloud-native/2019-12-03-what-is-cloud-native.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blob_clouds_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/blog_clouds_thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog_header_clouds.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/blog_clouds_header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/cloud-native/2019-12-03-what-is-cloud-native.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/patterns-practices/2019-12-03-what-is-cloud-native.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/portfolio.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,8 @@
       <workItem from="1574257902966" duration="538000" />
       <workItem from="1575380644610" duration="28000" />
       <workItem from="1575381072012" duration="2764000" />
-      <workItem from="1575387081814" duration="10886000" />
+      <workItem from="1575387081814" duration="11039000" />
+      <workItem from="1575462376192" duration="552000" />
     </task>
     <servers />
   </component>
