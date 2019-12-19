@@ -13,7 +13,7 @@ header:
 <div class="row t60">
     <div class="medium-4 columns t30">
         <a href="{{ site.porfolio_url }}/central-pipeline" rel="noopener noreferrer" target="_blank">
-            <img src="{{ site.urlimg }}portfolio_central_pipeline.jpg" alt="Central Pipeline" title="Central Pipeline"/>
+            <img src="{{ site.urlimg }}/portfolio_central_pipeline.jpg" alt="Central Pipeline" title="Central Pipeline"/>
         </a>
         <p>
             <a href="{{ site.porfolio_url }}/central-pipeline" rel="noopener noreferrer" target="_blank">Central Pipeline</a><br/>
@@ -23,7 +23,7 @@ header:
     </div><!-- /.medium-4.columns -->
     <div class="medium-4 columns t30">
         <a href="{{ site.porfolio_url }}/pi" rel="noopener noreferrer" target="_blank">
-            <img src="{{ site.urlimg }}portfolio_pi.jpg" alt="PI" title="PI"/>
+            <img src="{{ site.urlimg }}/portfolio_pi.jpg" alt="PI" title="PI"/>
         </a>
         <p>
             <a href="{{ site.porfolio_url }}/pi" rel="noopener noreferrer" target="_blank">Pipeline Interface (PI)</a><br/>
