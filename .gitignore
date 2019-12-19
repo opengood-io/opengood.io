@@ -10,14 +10,6 @@ generated/
 generated_tests/
 out/
 
-### Gradle ###
-!gradle/wrapper/gradle-wrapper.jar
-.gradle
-build/
-
-### Static Resources ###
-node_modules
-
 ### Jekyll ###
 .bundle
 .jekyll-cache

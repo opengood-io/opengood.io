@@ -28,6 +28,9 @@ author: cjaehnen
 url: 'https://opengood.io'
 baseurl: '/'
 
+# This URL points to project portfolio site
+porfolio_url: https://github.com/opengoodio
+
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
 improve_content: https://github.com/opengoodio/opengood.io/edit/gh-pages
@@ -39,7 +42,6 @@ improve_content: https://github.com/opengoodio/opengood.io/edit/gh-pages
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 urlimg: 'https://opengood.io/images/'
-
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
