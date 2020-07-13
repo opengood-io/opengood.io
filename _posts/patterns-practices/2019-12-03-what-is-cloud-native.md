@@ -75,11 +75,6 @@ applications are designed to be highly resilient, and often leverage the
 capabilities and services provided by a cloud-native platform to
 implement resilience.
 
-## Pivotal Cloud Foundry
-
-**Pivotal Cloud Foundry (PCF)** provides all these capabilities in a
-single, consolidated platform.
-
 ## Cloud-Native Framework
 
 **Cloud-native applications conform to a framework or contract designed
@@ -92,4 +87,4 @@ An example of a **contract** is illustrated in
 
 # Resources
 
-* Pivotal's article on [Cloud-Native](https://pivotal.io/cloud-native "Cloud-Native")
+* VMWare Pivotal's article on [Cloud-Native](https://pivotal.io/cloud-native "Cloud-Native")
