@@ -87,4 +87,6 @@ An example of a **contract** is illustrated in
 
 # Resources
 
-* VMWare Pivotal's article on [Cloud-Native](https://pivotal.io/cloud-native "Cloud-Native")
+* VMWare's article on
+[Cloud-Native](https://tanzu.vmware.com/cloud-native "Cloud-Native")
+
