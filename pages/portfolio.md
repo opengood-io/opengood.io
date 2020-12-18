@@ -12,36 +12,42 @@ header:
 
 <div class="row t60">
     <div class="medium-4 columns t30">
-        <a href="{{ site.porfolio_url }}/openapi-docs-autoconfig" rel="noopener noreferrer" target="_blank">
-            <img src="{{ site.urlimg }}/portfolio_openapi_docs_autoconfig.jpg" alt="OpenAPI Docs Auto Config" title="OpenAPI Docs Auto Config"/>
-        </a>
         <p>
-            <a href="{{ site.porfolio_url }}/central-pipeline" rel="noopener noreferrer" target="_blank">OpenAPI Docs Auto Config</a><br/>
+            <h3><a href="{{ site.porfolio_url }}/config-gradle-plugin" rel="noopener noreferrer" target="_blank">OpenGood Config Gradle Plugin</a></h3>
+            Gradle plugin providing centralized configuration of OpenGood Gradle projects<br/>
+            <em>Status:</em> <strong>Complete</strong>
+        </p>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+        <p>
+            <h3><a href="{{ site.porfolio_url }}/openapi-docs-autoconfig" rel="noopener noreferrer" target="_blank">OpenAPI Docs Auto Configuration</a></h3>
             Spring Boot auto-configuration for OpenAPI documentation using Spring Doc<br/>
             <em>Status:</em> <strong>Complete</strong>
         </p>
     </div><!-- /.medium-4.columns -->
     <div class="medium-4 columns t30">
-        <a href="{{ site.porfolio_url }}/central-pipeline" rel="noopener noreferrer" target="_blank">
-            <img src="{{ site.urlimg }}/portfolio_central_pipeline.jpg" alt="Central Pipeline" title="Central Pipeline"/>
-        </a>
         <p>
-            <a href="{{ site.porfolio_url }}/central-pipeline" rel="noopener noreferrer" target="_blank">Central Pipeline</a><br/>
+            <h3><a href="{{ site.porfolio_url }}/kotlin-commons" rel="noopener noreferrer" target="_blank">Kotlin Commons Library</a></h3>
+            Commons library containing reusable functions, extensions, and objects for Kotlin<br/>
+            <em>Status:</em> <strong>Complete</strong>
+        </p>
+    </div><!-- /.medium-4.columns -->
+</div>
+<div class="row t60">
+    <div class="medium-4 columns t30">
+        <p>
+            <h3><a href="{{ site.porfolio_url }}/env-setup" rel="noopener noreferrer" target="_blank">Environment Setup</a></h3>
+            Automated environment setup and configuration for OpenGood computing environments<br/>
+            <em>Status:</em> <strong>Complete</strong>
+        </p>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+        <p>
+            <h3><a href="{{ site.porfolio_url }}/pipeline-framework" rel="noopener noreferrer" target="_blank">Pipeline Framework</a></h3>
             Reusable CI/CD deployment framework<br/>
-            <em>Status:</em> <strong>In-Progress</strong>
+            <em>Status:</em> <strong>Planning</strong>
         </p>
     </div><!-- /.medium-4.columns -->
     <div class="medium-4 columns t30">
-        <a href="{{ site.porfolio_url }}/pi" rel="noopener noreferrer" target="_blank">
-            <img src="{{ site.urlimg }}/portfolio_pi.jpg" alt="PI" title="PI"/>
-        </a>
-        <p>
-            <a href="{{ site.porfolio_url }}/pi" rel="noopener noreferrer" target="_blank">Pipeline Interface (PI)</a><br/>
-            Abstract CLI tool for dynamic pipelines<br/>
-            <em>Status:</em> <strong>On-Hold</strong>
-        </p>
-    </div><!-- /.medium-4.columns -->
-    <div class="medium-4 columns t30">
-        
     </div><!-- /.medium-4.columns -->
 </div><!-- /.row -->
