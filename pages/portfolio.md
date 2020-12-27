@@ -44,7 +44,7 @@ header:
     <div class="medium-4 columns t30">
         <p>
             <h3><a href="{{ site.porfolio_url }}/pipeline-framework" rel="noopener noreferrer" target="_blank">Pipeline Framework</a></h3>
-            Reusable CI/CD deployment framework<br/>
+            Reusable CI/CD framework for composing tasks and activities for abstract CI/CD platforms<br/>
             <em>Status:</em> <strong>Planning</strong>
         </p>
     </div><!-- /.medium-4.columns -->
