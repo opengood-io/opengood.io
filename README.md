@@ -1,4 +1,6 @@
-# OpenGood Organization GitHub Pages Site
+# OpenGood Organization Web Site
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/opengoodio/opengood.io/master/LICENSE)
 
 Public Web site for OpenGood using Jekyll and GitHub Pages
 

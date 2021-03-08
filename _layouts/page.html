@@ -1,65 +1,23 @@
 ---
 layout: default
-format: post
 ---
-<div class="row t30">
-	<div class="medium-8 columns{% if page.sidebar == NULL %} medium-offset-2 end{% endif %}{% if page.sidebar == "left" %} medium-push-4{% endif %}">
-		<article itemscope itemtype="http://schema.org/Article">
-			<header>
-				{% if page.image.title %}
-				<figure>
-					<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}" itemprop="image">
-
-					{% if page.image.caption_url and page.image.caption %}
-					<figcaption class="text-right">
-						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
-					</figcaption>
-					{% elsif page.image.caption %}
-					<figcaption class="text-right">
-						{{ page.image.caption }}
-					</figcaption>
-					{% endif %}
-				</figure>
-				{% endif %}
-
-				<div itemprop="name">
-					{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-					<h1>{{ page.title }}</h1>
-				</div>
-			</header>
-
-
-			{% if page.teaser %}
-			<p class="teaser" itemprop="description">
-				{{ page.teaser }}
-			</p>
-			{% endif %}
-
-			<div itemprop="articleSection">
-			{{ content }}
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<div class="page-image-box">
+				<div class="page-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : page.image}})"></div>
 			</div>
+		</div>
+		<article class="col col-12 col-t-10 push-t-1 page">
+			<div class="page-content">
+				<div class="page-head">
+					<h1 class="page-title">{{ page.title | escape }}</h1>
+				</div>
 
-			{% if page.show_meta == true %}
-			{% include _meta_information.html %}
-			{% endif %}
-
-			{% if page.comments == true %}
-			{% include _comments.html %}
-			{% endif %}
-		</article>
-	</div><!-- /.medium-8.columns -->
-
-
-	{% if page.sidebar == "left" %}
-	<div class="medium-4 columns medium-pull-8">
-		{% include _sidebar.html %}
-	</div><!-- /.medium-4.columns -->
-	{% endif %}
-
-
-	{% if page.sidebar == "right" %}
-	<div class="medium-4 columns">
-		{% include _sidebar.html %}
-	</div><!-- /.medium-4.columns -->
-	{% endif %}
-</div><!-- /.row -->
+				<div class="page-body">
+					{{ content }}
+				</div>
+			</div>
+		</article> <!-- /.page -->
+	</div>
+</div>

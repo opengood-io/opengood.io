@@ -1,0 +1,44 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="footer-top">
+          <h2 class="logo-title">
+            <a href="{{site.baseurl}}/" class="logo-text">{{ site.title }}</a>
+          </h2>
+          <div class="top"><i class="ion ion-ios-arrow-up"></i></div>
+        </div>
+        <div class="footer-bottom">
+          <div class="copyright">
+            <p>&copy; {{site.time | date: '%Y'}} {{ site.title }}</p>
+          </div>
+          <div class="footer-social">
+            <ul class="list-reset">
+              {% if site.github %}
+              <li><a href="{{ site.github }}" target="_blank">GitHub</a></li>
+              {% else %} {% endif %}
+
+              {% if site.facebook %}
+              <li><a href="{{ site.facebook }}" target="_blank">Facebook</a></li>
+              {% else %} {% endif %}
+
+              {% if site.twitter %}
+              <li><a href="{{ site.twitter }}" target="_blank">Twitter</a></li>
+              {% else %} {% endif %}
+
+              {% if site.instagram %}
+              <li><a href="{{ site.instagram }}" target="_blank">Instagram</a></li>
+              {% else %} {% endif %}
+
+              {% if site.pinterest %}
+              <li><a href="{{ site.pinterest }}" target="_blank">Pinterest</a></li>
+              {% else %} {% endif %}
+
+              <li><a href="http://unsplash.com/" target="_blank">Images by Unsplash</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> <!-- /.footer -->
