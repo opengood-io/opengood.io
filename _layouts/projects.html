@@ -1,0 +1,111 @@
+---
+layout: default
+---
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<div class="page-image-box">
+				<div class="page-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : page.image}})"></div>
+		</div>
+	</div>
+	<article class="col col-12 col-t-10 push-t-1 page">
+		<div class="page-content">
+			<div class="page-head">
+				<h1 class="page-title">{{ page.title | escape }}</h1>
+			</div>
+
+			<div class="page-body">
+				{{ content }}
+			</div>
+		</div>
+	</article>
+
+	<div class="row">
+		<div class="col col-12 col-t-8">
+			<div class="row">
+				<article class="article col col-12 col-t-6">
+					<div class="article-box">
+						<div class="article-content">
+							<div class="article-info">
+								<div class="article-tag">
+									<a href="https://github.com/opengoodio/openapi-docs-autoconfig" class="tag" target="_blank">View</a>
+								</div>
+							</div>
+							<h2 class="article-title">
+								OpenAPI Docs Auto Configuration
+							</h2>
+							<p class="article-excerpt">Spring Boot auto-configuration for OpenAPI documentation using Spring Doc</p>
+						</div>
+					</div>
+				</article>
+				<article class="article col col-12 col-t-6">
+					<div class="article-box">
+						<div class="article-content">
+							<div class="article-info">
+								<div class="article-tag">
+									<a href="https://github.com/opengoodio/config-gradle-plugin" class="tag" target="_blank">View</a>
+								</div>
+							</div>
+							<h2 class="article-title">
+								OpenGood Config Gradle Plugin
+							</h2>
+							<p class="article-excerpt">Gradle plugin providing centralized configuration of OpenGood Gradle projects</p>
+						</div>
+					</div>
+				</article>
+			</div>
+			<div class="row">
+				<article class="article col col-12 col-t-6">
+					<div class="article-box">
+						<div class="article-content">
+							<div class="article-info">
+								<div class="article-tag">
+									<a href="https://github.com/opengoodio/env-setup" class="tag" target="_blank">View</a>
+								</div>
+							</div>
+							<h2 class="article-title">
+								OpenGood Environment Setup
+							</h2>
+							<p class="article-excerpt">Automated environment setup and configuration for OpenGood computing environments</p>
+						</div>
+					</div>
+				</article>
+				<article class="article col col-12 col-t-6">
+					<div class="article-box">
+						<div class="article-content">
+							<div class="article-info">
+								<div class="article-tag">
+									<a href="https://github.com/opengoodio/kotlin-commons" class="tag" target="_blank">View</a>
+								</div>
+							</div>
+							<h2 class="article-title">
+								Kotlin Commons Library
+							</h2>
+							<p class="article-excerpt">Commons library containing reusable functions, extensions, and objects for Kotlin</p>
+						</div>
+					</div>
+				</article>
+			</div>
+			<div class="row">
+				<article class="article col col-12 col-t-6">
+					<div class="article-box">
+						<div class="article-content">
+							<div class="article-info">
+								<div class="article-tag">
+									<a href="https://github.com/opengoodio/spring-commons" class="tag" target="_blank">View</a>
+								</div>
+							</div>
+							<h2 class="article-title">
+								Spring Commons Library
+							</h2>
+							<p class="article-excerpt">Commons library containing reusable patterns, extensions, properties, beans, and objects for Spring and Spring Boot</p>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+		<div class="col col-12 col-t-4">
+			{% include sidebar.html %}
+		</div>
+	</div>
+</div>
