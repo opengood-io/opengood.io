@@ -2,8 +2,6 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/opengoodio/opengood.io/master/LICENSE)
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/opengoodio/opengood.io/master/LICENSE)
-
 Public Web site for OpenGood using Jekyll and GitHub Pages
 
 ## Where is the site found?
